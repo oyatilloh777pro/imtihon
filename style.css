@@ -1,0 +1,53 @@
+header {
+    background-color: #014E56;
+}
+
+ul {
+    list-style: none;
+}
+
+header .container ul a {
+    text-decoration: none;
+    color: white; 
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .button {
+    border: 1.5px solid white;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.intro .container {
+    display: flex;
+    gap: 50px;
+}
+
+.intro {
+    background-color: #014E56;
+}
+
+.intro1 {
+    background-color: #014E56;
+    display: flex;
+    box-shadow: 10px 15px 5px grey;
+}
+
+.intro1 .container {
+    display: flex;
+}
